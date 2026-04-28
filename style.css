@@ -1,1 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #1a1a1a, #050505);
+  color: white;
+}
 
+/* Center layout like your old design */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main box */
+.box {
+  text-align: center;
+  padding: 40px;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  background: rgba(0,0,0,0.6);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(255, 215, 0, 0.08);
+}
+
+/* Title */
+h1 {
+  color: gold;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #ddd;
+  margin-bottom: 25px;
+}
+
+/* Button */
+.join-btn {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, gold, #b8860b);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px gold;
+}
